@@ -1,0 +1,5 @@
+gradio
+pandas
+scikit-learn==1.2.2
+pytest
+joblib

@@ -1,0 +1,16 @@
+#Date: any Date
+#ID: Transaction ID- (12345)
+#Store_nbr: (0-54)
+#Family: (bread/bakery, dairy, deli, eggs, frozen foods, grocery i, grocery ii,
+ meats, poultry, prepared foods, produce, seafood,beverages, liquor,wine,beer,
+ home and kitchen i, home and kitchen ii, home appliances, home care,beauty, 
+ baby care, personal care,ladieswear, lingerie automotive, celebration, cleaning,
+hardware, lawn and garden, magazines, pet supplies, players and electronics, 
+school and office supplies)
+
+#Onpromotion: (0,1),
+#Daily Oil Price: (1235),
+#City: the app will generate based on store meta data
+#State:the app will generate based on store meta data 
+#Type:the app will generate based on store meta data, 
+#Cluster: the app will generate based on store meta data,

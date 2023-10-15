@@ -1,0 +1,5 @@
+CustomerID,Gender,SeniorCitizen,Partner,Dependents,Tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Prediction,flag,username,timestamp
+,,,,,,,,,,,,,,,,,,,,,,,2023-10-15 02:29:37.689446
+8965-HYPAY,Male,No,Yes,Yes,15,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,One year,Yes,Bank transfer (automatic),1606.1,1606.1,,,,2023-10-15 02:38:00.089642
+1246-HPAYTVCS,Male,Yes,Yes,12,No,Yes,No,Yes,Unknown,Yes,Unknown,Yes,Unknown,Month-to-month,No,Electronic check,126,580,,,,2023-10-15 03:10:09.212233
+12435HHFD,Male,Yes,Yes,Yes,25,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,One year,No,Bank transfer (automatic),125,125,,,,2023-10-15 22:12:50.631989
