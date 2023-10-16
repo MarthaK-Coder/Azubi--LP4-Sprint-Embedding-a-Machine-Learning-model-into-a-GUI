@@ -9,7 +9,16 @@ from datetime import datetime
 from sklearn.preprocessing import OneHotEncoder,MinMaxScaler
 import sklearn
 #Load your data, encoder, scaler, and model
-train_data= pd.read_csv(r'C:\Users\marth\OneDrive - Azubi Africa\Sprints\LP4\Azubi--LP4-Sprint-Embedding-a-Machine-Learning-model-into-a-GUI\streamlit_project\Train data\train.csv')
+#Loading the train data used in modelling
+# Specify the ZIP file path
+zip_file_path = r'C:\Users\marth\OneDrive - Azubi Africa\Sprints\LP4-UPDATED\Azubi--LP4-Sprint-Embedding-a-Machine-Learning-model-into-a-GUI\streamlit_project\train.zip'
+file_name = 'train.csv'
+# Initialize the ZipFile object
+with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+
+    # Read the 'train.csv' file from the ZIP archive
+    with zip_ref.open('train.csv') as train:
+     train_data = pd.read_csv(train)
 
 #Load model,encoder and scaler
 def load_ml_components(directory_path):
